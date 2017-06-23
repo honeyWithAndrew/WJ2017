@@ -1,0 +1,74 @@
+html, body{
+	margin: 0;
+}
+
+.wrapper{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.header{
+	background: #c47;
+	min-height: 150px;
+}
+
+.menu{
+    background: #747;
+	padding: 10px;
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+}
+
+.menu li{
+	display: inline;
+	color: #fff;
+	margin: 0 10px;
+}
+
+.menu li.active{
+	color: #ff0;
+}
+
+.menu a{
+	color: inherit;
+	text-decoration: none;
+}
+
+.contentImage{
+	max-width: 400px;
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.content h2{
+	clear: both;
+}
+
+.gallery{
+	overflow: hidden;
+}
+
+.gallery .item{
+	float: left;
+	margin: 0 1%;
+	width: 31.33333%;
+}
+
+.gallery .item img{
+	width: 100%;
+}
+
+.footer{
+    background: #747;
+	padding: 10px;
+}
+
+@media screen and (max-width: 480px){
+	.menu li{
+		display: block;
+		text-align: center;
+	}
+}

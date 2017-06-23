@@ -1,0 +1,51 @@
+/* сброс стилей */
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+html, body{
+	margin: 0;
+	font-family: Merriweather, serif;
+	font-size: 16px;
+	background: fixed url(../img/1.jpg) top right no-repeat, url(../img/back.jpg);
+}
+
+h2{
+	font-size: 32px;
+	margin: 10px 0;
+}
+
+/* и т.д. - пишет общие стили */
+
+.logoImage{
+	width: 200px;
+}
+
+.gallery img{
+	width: 250px;
+	transition: transform 0.3s;
+}
+
+.gallery img:hover{
+	transform: scale(1.2);
+}
+
+.menu{
+	font-size: 20px;
+	color: #cc0;
+}
+
+.menu a{
+	color: inherit;
+}
+
+.catalog{
+	font-size: 20px;
+	color: #f90;
+}
+
+
+
+
+
+
+

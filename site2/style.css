@@ -1,0 +1,76 @@
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	background: fixed url(img/hipster.png) top right no-repeat, url(img/site-background.png);
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* .header {
+	position: fixed;
+	left: 10px;
+	top: 10px;
+	padding: 10px;
+	height: 150px;
+} */
+
+nav {
+	font-size: 25px;
+	/* background: #fff; */
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+/* .popup {
+    position: fixed; Фиксированное положение
+    right: 10px; Расстояние от правого края окна браузера
+    top: 20px; Расстояние сверху
+    padding: 10px; Поля вокруг текста 
+} */
+
+.content {
+	height: 600px;
+}
+
+.products {
+	padding-left: 50px;
+	height: 250px;
+}
+
+.product-item {
+	height: 200px;
+	width: 200px;
+	border: 3px solid #018fbf;
+	border-radius: 15px;
+	margin-right: 20px; 
+	background: #fff;
+	transition: transform 0.3s;
+}
+
+.product-item:hover {
+	transform: scale(1.1);
+}
+
+.news-item {
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+footer {
+	font-style: italic;
+	background: #fff;
+}
+
+.heart:hover {
+	color: pink;
+}
